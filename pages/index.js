@@ -28,9 +28,11 @@ export default function Home() {
 
       { /*Body */}
       <form className="flex flex-col items-center  mt-40" >
-        <Image width="300" 
+      <Image width="300" 
         objectFit="cover"
        height ="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png" />
+       
+
         <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-grey-200 hover:shadow-lg focus-whithin:shadow-lg px-5 py-3 rounded-full items-center sm:max-w-xl lg:max-w-2xl">
         <SearchIcon className =" h-5 text-gray-500 mr-3"/>
         <input ref ={searchInputRef}type ="text" className="flex-grow focus:outline-none" />
