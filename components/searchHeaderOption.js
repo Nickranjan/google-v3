@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+import { useRoute} from "next/router";
 
 export default function SearchHeaderOption({ title, Icon, selected }) {
   const router = useRouter(); //using router
