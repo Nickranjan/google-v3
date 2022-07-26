@@ -1,5 +1,5 @@
 import {useRouter} from "next/router"
-import SearchHeaderOption from "./SearchHeaderOption";
+import SearchHeaderOption from "./SearchHeaderi";
 import { SearchIcon, PhotographIcon } from "@heroicons/react/outline";
 export default function SearchHeaderOptions(){
     const router = useRouter(); //here we use router 
